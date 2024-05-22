@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+div {
+  unicode-bidi: isolate;
+}
+body {
+color: var(--black);
+font-family: Poly Sans, sans-serif;
+font-size: 1rem;
+line-height: 1.55;
+}
+
+p {
+  margin-bottom: 0;
+  font-weight: 300;
+  margin-top: 0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
